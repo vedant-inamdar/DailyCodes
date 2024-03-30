@@ -1,3 +1,4 @@
+import java.util.*;
 class findallduplicates {
     public List<Integer> findDuplicates(int[] nums) {
         HashSet<Integer>set=new HashSet<>();
