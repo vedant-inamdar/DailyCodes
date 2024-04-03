@@ -1,3 +1,4 @@
+import java.util.*;
 class uniquenumofoccurences {
     public boolean uniqueOccurrences(int[] arr) {
         HashMap<Integer, Integer> occurrencesMap = new HashMap<>();
