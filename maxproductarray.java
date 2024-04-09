@@ -13,4 +13,11 @@ class maxproductarray {
         }
         return (m1 - 1) * (m2 - 1);
     }
+
+    public static void main(String[] args) {
+        maxproductarray sol=new maxproductarray();
+        int[] nums={3,4,2,5,6};
+        int result=sol.maxProduct(nums);
+        System.out.println(result);
+    }
 }

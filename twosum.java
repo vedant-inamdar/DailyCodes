@@ -9,4 +9,16 @@ class twosum {
         }
         return null;
     }
+
+    public static void main(String[] args) {
+        twosum sol=new twosum();
+        int[] nums={1,2,3,4,5};
+        int target=9;
+        int[] result=sol.twoSum(nums, target);
+        if(result!=null){
+            System.out.println(result[0]+" "+result[1]);
+        }else{
+            System.out.println("No");
+        }
+    }
 }

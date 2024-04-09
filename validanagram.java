@@ -10,4 +10,12 @@ class validanagram {
         Arrays.sort(charArrayT);
         return Arrays.equals(charArrayS, charArrayT);
     }
+
+    public static void main(String[] args) {
+        validanagram sol=new validanagram();
+        String s="vedant";
+        String t="tnadev";
+        boolean result=sol.isAnagram(s, t);
+        System.out.println(result);
+    }
 }

@@ -14,4 +14,11 @@ class strhalvesalike {
         }
         return ans == 0;
     }
+
+    public static void main(String[] args) {
+        strhalvesalike sol=new strhalvesalike();
+        String s="book";
+        boolean result=sol.halvesAreAlike(s);
+        System.out.println(result);
+    }
 }

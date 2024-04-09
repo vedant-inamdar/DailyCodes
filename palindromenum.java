@@ -12,4 +12,11 @@ public class palindromenum {
         }
         return num == reversed;
     }
+
+    public static void main(String[] args) {
+        palindromenum sol=new palindromenum();
+        int x=121;
+        boolean result=sol.isPalindrome(x);
+        System.out.println(result);
+    }
 }
