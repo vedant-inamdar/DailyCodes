@@ -1,3 +1,4 @@
+import java.util.*;
 class relativeranks {
     public String[] findRelativeRanks(int[] score) {
         int n=score.length;
